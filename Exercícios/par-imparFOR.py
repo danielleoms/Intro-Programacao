@@ -3,6 +3,7 @@
 #for cont in range (para cada contagem limite)
 
 for cont in range (1,11):
+    print('\n***Número {} ***'.format(cont))
     num = int(input('Informe um número inteiro:'))
     rest = num % 2
     if rest == 0:
