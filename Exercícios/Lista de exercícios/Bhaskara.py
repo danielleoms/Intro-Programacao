@@ -10,15 +10,13 @@ a = float(input('Entre com o valor de a:'))
 b = float(input('Entre com o valor de b:'))
 c = float(input('Entre com o valor de c:'))
 
-x = ( b**2 )-(4 * a * c)
+delta  = ( b**2 )-(4 * a * c)
 
-if x<0: # or math.sqrt(x) == :
+if a == 0 or delta < 0:
         print ("Impossível calcular.")
 
 else :
-    x=math.sqrt(x)
-    x1=(-b+x)/(2*a)
-    x2=(-b-x)/(2*a)
-
-
-print('R1 = {:.4f} R2 = {:.4f}' .format(x1, x2))
+    x=math.sqrt(delta)
+    x1 = (-b+x)/(2*a)
+    x2 = (-b-x)/(2*a)
+    print('R1 = {:.4f} R2 = {:.4f}' .format(x1, x2))
