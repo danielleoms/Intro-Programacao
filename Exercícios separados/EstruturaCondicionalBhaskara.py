@@ -1,8 +1,7 @@
-#Faça um programa em Python que leia 3 valores de ponto flutuante e efetue o cálculo das raízes usando a equação de Bhaskara.
-# Se não for possível calcular as raízes, caso haja uma divisão por 0 ou uma raiz quadrada de número negativo,
-# apresente a mensagem “impossível calcular a raiz”
-
-# FÓRMULA DE BHASKARA: x = (-b ± √( b² - 4 a c ) ) / 2 a
+"""Faça um programa em Python que leia 3 valores de ponto flutuante e efetue o cálculo das raízes usando a equação de Bhaskara.
+ Se não for possível calcular as raízes, caso haja uma divisão por 0 ou uma raiz quadrada de número negativo,
+ apresente a mensagem “impossível calcular a raiz”
+ FÓRMULA DE BHASKARA: x = (-b ± √( b² - 4 a c ) ) / 2 a"""
 
 import math
 a = float(input('Entre com o valor de a:'))
