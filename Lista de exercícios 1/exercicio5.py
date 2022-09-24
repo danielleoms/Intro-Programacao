@@ -1,5 +1,4 @@
-# Uma seguradora de saúde está oferecendo um plano de saúde promocional em que todos os conveniados pagam R$ 100,00 mais um adicional, de acordo com sua idade.
-# As regras para esse adicional seguem a tabela abaixo:
+# Uma seguradora de saúde está oferecendo um plano de saúde promocional em que todos os conveniados pagam R$ 100,00 mais um adicional, de acordo com sua idade:
 
 idade = int(input('Informe sua idade:'))
 
