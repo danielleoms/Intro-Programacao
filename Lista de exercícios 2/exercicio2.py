@@ -5,7 +5,7 @@
 
 cateto1 = float(input('Informe o valor do primeiro cateto:'))
 cateto2 = float(input('Informe o valor do segundo cateto:'))
-hi = ((cateto1 ** 2) + (cateto2 ** 2)) ** (1/2)
+hi = ((cateto1 ** 2) + (cateto2 ** 2)) ** (1/2) #não esquecer de colocar o 1/2 entre parentêses
 
 print('O valor da hipotenusa é {:.1f}' .format(hi))
 
