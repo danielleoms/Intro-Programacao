@@ -1,9 +1,8 @@
 # Faça um programa em Python que leia 1 valor de ponto flutuante
 # e diga qual dos seguintes intervalos ele pertence: ([0,25], (25,50], (50,75], (75,100])
-# Obs.: a representação
+# Obs:
 # [a,b] significa intervalo >= a e <=b
 # (a,b] significa intervalo > a e <=b
-
 
 num = float(input('Informe um número:'))
 
