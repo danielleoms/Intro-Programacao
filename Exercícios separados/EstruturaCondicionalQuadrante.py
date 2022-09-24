@@ -1,5 +1,5 @@
 # Faça um programa em Python que leia 2 valores com 1 casa decimal (x,y) que devem representar as coordenadas de um ponto em um plano.
-# A seguir determine qual quadrante o ponto pertence, ou se está sobre algum dos eixos ou na origem (0,0)
+# A seguir determine qual quadrante o ponto pertence, ou se está sobre algum dos eixos ou na origem (0,0).
 
 x = float(input('X:'))
 y = float(input('Y:'))
