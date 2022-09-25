@@ -1,4 +1,3 @@
-
 #Escreva o menu de opções abaixo. Leia a opção do usuário,
 # leia os numeros e execute a operação escolhida. Escreva uma mensagem de erro se a opção for inválida.
 
@@ -28,13 +27,13 @@ while opcao != 5:
         if num1 < num2:
             print(f'{num2} - {num1} = {num2 - num1}')
     elif opcao == 3:
-        print('{} X {} ='.format(num1, num2, num1 * num2))
+        print('{} X {} = {}'.format(num1, num2, num1 * num2))
     elif opcao == 4:
-        if num1 == 0:
-            print(f'{num1} ÷ {num2} = {num1 / num2}')
-        if num2 == 0:
+         if num2 == 0:
             print(f'{num2} ÷ {num1} = {num2 / num1}')
-    elif opcao == 5:
+         else:
+             print(f'{num1} ÷ {num2} = {num1 / num2}')
+    elif opcao == 5:\
         print('Fim do progama! Volte sempre.')
     else:
         print('Por favor, escolha uma opção válida.')
