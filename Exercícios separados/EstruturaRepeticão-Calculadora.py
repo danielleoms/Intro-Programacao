@@ -17,7 +17,7 @@ while opcao != 5:
     [ 1 ] Soma de 2 números inteiros
     [ 2 ] Diferença entre 2 números 
     [ 3 ] Produto entre 2 números
-    [ 4 ] Divisão entre 2 números (o denominador não poderá ser zero)
+    [ 4 ] Divisão entre 2 números 
     [ 5 ] Sair ''')
     opcao = int(input('Sua opção:'))
     if opcao == 1:
