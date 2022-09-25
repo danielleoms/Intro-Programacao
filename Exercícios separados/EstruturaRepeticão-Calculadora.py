@@ -35,6 +35,6 @@ while opcao != 5:
         if num2 == 0:
             print(f'{num2} ÷ {num1} = {num2 / num1}')
     elif opcao == 5:
-        print('Fim do progama! Volte sempre!')
+        print('Fim do progama! Volte sempre.')
     else:
         print('Por favor, escolha uma opção válida.')
