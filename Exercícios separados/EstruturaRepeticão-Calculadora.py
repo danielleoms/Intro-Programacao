@@ -33,7 +33,7 @@ while opcao != 5:
             print(f'{num2} ÷ {num1} = {num2 / num1}')
          else:
              print(f'{num1} ÷ {num2} = {num1 / num2}')
-    elif opcao == 5:\
+    elif opcao == 5:
         print('Fim do progama! Volte sempre.')
     else:
         print('Por favor, escolha uma opção válida.')
