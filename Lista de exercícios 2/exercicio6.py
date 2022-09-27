@@ -12,5 +12,3 @@ else:
         calc = 1 / c
         soma += calc
     print(soma, end=' ')
-
-#verificar se está correto
