@@ -4,7 +4,6 @@
 n = int(input('Informe um número:'))
 soma = 0
 calc = 0
-
 if n < 0:
     print('Informe um número positivo.')
 else:
