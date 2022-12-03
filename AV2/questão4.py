@@ -17,8 +17,10 @@ for c in range(1, 3 + 1):
     jogo.append(linha)
 
 print('-=-' * 10)
+
 for x in jogo:
     for y in x:
         print(y, end='  ')
     print()
 print('-=-' * 10)
+print(f'A soma da diagonal principal é: {soma}')
