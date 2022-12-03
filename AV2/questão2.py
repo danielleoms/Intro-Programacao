@@ -38,7 +38,7 @@ while True:
     if not lenght(password, 6, 8 ):
         print("SENHA INVÁLIDA! Sua senha deve ter entre 6 e 8 caracteres.")
     if not no1number(password):
-        print("SENHA INVÁLIDA! Sua senha precisa começar com um número.")
+        print("SENHA INVÁLIDA! Sua senha precisa não pode começar com um número.")
     if not pelomenos1maisc(password):
         print("SENHA INVÁLIDA! Sua senha precisa ter pelo menos uma letra maiúscula.")
 print("Senha válida! Sua senha contém: {} caracteres" .format(len(password)))
