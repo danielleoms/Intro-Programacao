@@ -1,7 +1,7 @@
 soma = 0
 jogo = list()
 
-print('Digite 9 números inteiros para formar o de jogo da velha esquisito:\n')
+print('Digite 9 números inteiros para formar o jogo da velha esquisito:\n')
 for c in range(1, 3 + 1):
     linha = list()
     for i in range(1, 3 + 1):
