@@ -6,10 +6,10 @@ def lenght (p, min, max):
   else:
     return False
   
-  def passwordupper(p):
+def passwordupper(p):
     return p.upper()
   
-  def passwordlower(p):
+def passwordlower(p):
     return p.lower()
 
 #(opcional). Acrescente as seguintes funções:
@@ -41,6 +41,6 @@ while True:
         print("SENHA INVÁLIDA! Sua senha precisa começar com um número.")
     if not pelomenos1maisc(password):
         print("SENHA INVÁLIDA! Sua senha precisa ter pelo menos uma letra maiúscula.")
-print("Senha válida! Sua senha contém: {}" .format(len(password)))
-print("Versão maiúscula da senha: {}".format(password.upper()))
-print("Versão minúscula da senha: {}".format(password.lower()))
+print("Senha válida! Sua senha contém: {} caracteres" .format(len(password)))
+print("Versão maiúscula da senha: {}".format(passwordupper(password)))
+print("Versão minúscula da senha: {}".format(passwordlower(password)))
