@@ -21,9 +21,9 @@ def valid1dig(p):
     
 def no1number(p):
     if p[0].isnumeric(): 
-        return True
-    else:
         return False
+    else:
+        return True
         
 def pelomenos1maisc(p):
     for i in p:
